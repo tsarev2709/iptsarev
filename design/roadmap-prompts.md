@@ -1,6 +1,6 @@
 # Roadmap illustration options
 
-Generated with the built-in ImageGen tool. The three options are provided for selection. The homepage uses the editable SVG route diagram until a choice is made.
+Generated with the built-in ImageGen tool. The homepage uses the third illustration, "Planning together".
 
 ## 1. 01-route-map
 

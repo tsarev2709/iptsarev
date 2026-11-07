@@ -306,7 +306,81 @@ img { display: block; max-width: 100%; }
 .callout p { margin: 0; color: var(--muted); }
 a.callout:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
 .fit-note { margin-top: 24px; }
-.roadmap-visual { width: 100%; height: auto; margin-top: 26px; }
+.roadmap-visual {
+  width: 100%;
+  height: auto;
+  margin-top: 26px;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.display-heading img { height: auto; }
+.section-head > .display-heading { align-self: center; }
+.handwritten { font-family: var(--script); font-weight: 400; }
+.section-head > .handwritten, .section-subtitle.handwritten {
+  color: var(--ink);
+  font-size: clamp(1.55rem, 2.55vw, 2.22rem);
+  line-height: 1.23;
+}
+.dark .section-head > .handwritten { color: var(--paper); }
+.numbered-steps li { grid-template-columns: 52px minmax(0, 1fr); }
+.numbered-steps .handwritten, .publications-title {
+  font-size: clamp(1.75rem, 3vw, 2.42rem);
+  line-height: 1.07;
+}
+.step-badge {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  aspect-ratio: 1;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: var(--lime);
+  box-shadow: 3px 3px var(--ink);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.publications-title { margin: 0 0 16px; }
+.science-quote {
+  margin: 22px 0 0;
+  padding-left: 18px;
+  border-left: 2px solid var(--deep-violet);
+  color: var(--muted);
+}
+.carousel-controls, .carousel-tabs, .carousel-arrows { display: flex; gap: 10px; }
+.carousel-controls { align-items: center; justify-content: space-between; flex-wrap: wrap; margin-bottom: 20px; }
+.carousel-tabs { flex-wrap: wrap; }
+.carousel-controls[hidden], .carousel-panel[hidden] { display: none; }
+.carousel-controls button {
+  min-height: 44px;
+  padding: 6px 16px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 3px 3px var(--ink);
+  font-weight: 700;
+  cursor: pointer;
+}
+.carousel-controls button:hover { background: var(--rose); }
+.carousel-tabs button[aria-selected="true"] { background: var(--lime); }
+.carousel-panel {
+  min-height: 282px;
+  padding: clamp(21px, 3vw, 38px);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+}
+.carousel-panel + .carousel-panel { margin-top: 18px; }
+.carousel-panel[hidden] + .carousel-panel { margin-top: 0; }
+.carousel-panel > h3 { margin: 0 0 16px; font-size: clamp(1.35rem, 2.6vw, 2.08rem); }
+.carousel-panel > p { max-width: 67ch; }
+.carousel-panel .callout { padding: 20px; background: var(--lavender); box-shadow: none; }
+.carousel-panel h4 { margin: 0 0 8px; }
+.contact-links { display: flex; flex-wrap: wrap; gap: 12px 26px; margin-top: 24px; }
+.contact-links a { text-decoration: underline; text-underline-offset: 4px; font-weight: 700; }
 .roadmap-option { padding: 20px; }
 .roadmap-option img { width: 100%; height: auto; border: 2px solid var(--ink); border-radius: 16px; }
 .roadmap-option h2 { font-size: 1.5rem; line-height: 1.15; letter-spacing: -.035em; }
@@ -388,6 +462,11 @@ a.callout:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
   text-wrap: balance;
 }
 .final p:not(.eyebrow) { max-width: 670px; margin-bottom: 0; font-size: 1.1rem; }
+.final p.contact-note {
+  max-width: 840px;
+  font-size: clamp(1.6rem, 3vw, 2.35rem);
+  line-height: 1.24;
+}
 .final .button-light { background: var(--paper); }
 .final .button-light:hover { background: var(--rose); }
 .footer { padding: 44px 0 24px; background: var(--ink); color: var(--paper); border-top: 2px solid var(--ink); }
