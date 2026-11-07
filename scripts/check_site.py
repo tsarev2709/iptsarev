@@ -6,7 +6,7 @@ from urllib.parse import urlsplit, unquote
 import argparse
 
 ROOT = Path(__file__).resolve().parents[1] / "site"
-PAGES = [ROOT / "index.html", ROOT / "pharma/index.html", ROOT / "medtech/index.html"]
+PAGES = [ROOT / "index.html", ROOT / "pharma/index.html", ROOT / "medtech/index.html", ROOT / "roadmap-options/index.html"]
 EXPECTED_IMAGES = {"portrait.webp", "theatre.webp", "speaking.webp", "scientist.webp", "hemotech.webp", "mosfarma.webp"}
 
 class Links(HTMLParser):

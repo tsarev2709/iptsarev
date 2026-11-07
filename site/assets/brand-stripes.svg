@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="26" viewBox="0 0 132 50" preserveAspectRatio="none">
+  <title>Лаймовая наклейка с розовыми полосками</title>
+  <rect x="2" y="2" width="128" height="46" rx="6" fill="#E6FF52"/>
+  <path d="M2 14h128v6H2zm0 16h128v6H2z" fill="#F67BD9"/>
+  <rect x="2" y="2" width="128" height="46" rx="6" fill="none" stroke="#2A1827" stroke-width="3"/>
+</svg>
