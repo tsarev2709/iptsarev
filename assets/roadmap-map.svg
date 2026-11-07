@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none">
+  <title>Маршрут к цели</title>
+  <rect x="8" y="8" width="622" height="380" rx="28" fill="#2A1827"/>
+  <rect x="2" y="2" width="622" height="380" rx="28" fill="#FAF9F6" stroke="#2A1827" stroke-width="3"/>
+  <path d="M70 302C180 302 91 212 205 212H292C375 212 292 108 395 108H530" stroke="#4B52CF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M205 212C224 284 310 287 330 323M395 108C446 159 492 151 522 203" stroke="#C1B8CF" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M319 311L340 332M340 311L319 332" stroke="#2A1827" stroke-width="3" stroke-linecap="round"/>
+  <path d="M348 173C348 143 299 132 277 153" stroke="#2A1827" stroke-width="3" stroke-linecap="round"/>
+  <path d="M276 140L273 157L290 161" stroke="#2A1827" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="70" cy="302" r="21" fill="#E6FF52" stroke="#2A1827" stroke-width="3"/>
+  <circle cx="205" cy="212" r="24" fill="#F67BD9" stroke="#2A1827" stroke-width="3"/>
+  <circle cx="395" cy="108" r="24" fill="#42E9D9" stroke="#2A1827" stroke-width="3"/>
+  <circle cx="530" cy="108" r="35" fill="#E6FF52" stroke="#2A1827" stroke-width="3"/>
+  <path d="M524 127V83L546 91L524 100" stroke="#2A1827" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M194 211L202 219L217 203M383 108L391 116L407 100" stroke="#2A1827" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tsarev2709.github.io/iptsarev/sitemap.xml
